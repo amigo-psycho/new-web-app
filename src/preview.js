@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './login.css';
 import Card from "./Card";
+import { Link, Route } from "wouter";
+
 
 class Preview extends Component {
 
@@ -36,6 +38,7 @@ class Preview extends Component {
                     {this.state.movie.map(c => <Card key={c.id} movie={c} deleteById={this.deleteById} />)}
                 </div>
                 <h1 className="head">MOVIEVERSE</h1>
+                <span className="navbar-brand "><Link href="/Admin/Add"><button className="btn btn-dark">ADD</button></Link></span>
             </div>
         )
     }

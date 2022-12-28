@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: url("./images/background-main.jpg") no-repeat center center fixed;
+  /* background: url("./images/background-main.jpg") no-repeat center center fixed; */
   /* background-color: #2537e0e0; */
   background-size: cover;
   width: 100vw;

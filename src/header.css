@@ -2,7 +2,6 @@
 {
     width: 100vw;
     height: 80px;
-    background-image: linear-gradient(rgba(185, 233, 52, 0.563), rgba(251, 0, 255, 0.023));
 }
 .logo{
     height: 70px;
@@ -24,7 +23,8 @@
     margin: 4px;
     background-color: transparent;
     border: none;
-    color: beige;
+    color: blue;
+
 }
 .btns:hover,
 .btn:hover
