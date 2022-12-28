@@ -1,0 +1,13 @@
+.footer-main
+{
+    width: 100vw;
+    height: 80px;
+    background-image: linear-gradient(rgba(251, 0, 255, 0.023),rgba(185, 233, 52, 0.563));
+    
+}
+.navbar-brand{
+    font-weight: bolder;
+    color: rgb(146, 215, 66);
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    margin: auto !important;
+}

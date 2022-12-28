@@ -1,0 +1,88 @@
+.login-head{
+    color: rgb(12, 12, 123);
+    background-color: rgba(71, 70, 70, 0.1);
+    border-radius: 10px ;
+}
+.login-form-main
+{
+    background: url("./images/background-film.jpg") no-repeat ;
+    background-size:cover;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgba(158, 156, 154, 0.745);
+    width: fit-content;
+    padding: 20px;
+}
+.area
+{
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.login-form
+{
+    align-items: center;
+}
+.login-form-main input{
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.845);
+    background: rgba(158, 156, 154, 0.745);
+    margin: 2px;
+}
+.login-form-main input:hover{
+    border: 0px;
+}
+.social,
+.msg
+{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: rgba(33, 236, 168, 0.431);
+    border-radius:5px ;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 4px;
+}
+.select {
+    width: 500px;
+    display: flex;
+}
+.select input{
+    margin-right: 0;
+    border-radius: 5px 0 0 5px;
+    text-transform: Capitalize;
+}
+.select select{
+    border-radius: 0 5px 5px 0;
+    border: rgba(0, 0, 0, 0.845);
+    background: rgba(158, 156, 154, 0.745);
+    margin: 2px;
+    margin-left: 0;
+    text-transform: Capitalize;
+}
+.tag{
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+hr{
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 8px;
+
+}
+.head{
+    margin: auto;
+    padding: auto;
+    margin-top: 30px;
+    background-color: rgba(245, 245, 220, 0);
+    color: rgba(164, 211, 211, 0.123);
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: 3vw;
+}

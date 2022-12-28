@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    outline-style: none;
+}
+
+*:focus {
+    outline: none;
+    outline-style: none;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a {
+    outline: 0;
+    border: none;
+}
+
+
+
+body {
+    background-color: #f2f2f2;
+    font-weight: 400;
+    color: #2e2f3e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+textarea {
+    white-space: normal;
+    font-size: inherit;
+    padding: 0;
+}
+
+select {
+    text-align: center;
+}
+
+
+.poster-container {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 0 10px;
+    background-color: #fff;
+}
+
+.poster-container>img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.posters-wrapper {
+    display: block;
+    width: max-content;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+    top: 2em;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: -moz-max-content;
+}
+
+.main-poster-container {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    box-shadow: 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid #2e2f3e;
+    z-index: 10;
+}
+.main-poster-container:hover
+{
+    height: 30vw;
+    z-index: 12;
+    
+}
+
+.primary-labels {
+    padding: 0 1em 1em 1em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.movie-title {
+    font-weight: bold;
+}
+
+.c-movie-analytics {
+    font-size: small;
+    display: inline-flex;
+}
+
+.movie-desc {
+    white-space: nowrap;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.movie-card-text {
+    padding: 5px 8px 8px 10px;
+}
+
+.rating-section {
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+    margin-top: 5px;
+    display: table;
+    content: icon;
+    clear: both;
+    width: 100%;
+}
+
+.rating-with-color {
+    color: #ffa500;
+}
+
+.stars-rating {
+    float: left;
+}
+
+.c-favorite-icon {
+    float: right;
+}
+
+.c-favorite-icon>.fa-heart {
+    color: teal;
+}
+
+.movie-image-cont {
+    height: 190px;
+    width: fit-content;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    background-color: #eee;
+}
+
+.movie-image-cont>img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.botted-space {
+    height: 4px;
+    width: 4px;
+    background-color: teal;
+    border-radius: 100%;
+    position: relative;
+    top: 6px;
+    margin: 0px 8px 0px 8px;
+}
+
+.card-header-labelCont {
+    display: table;
+    content: "";
+    clear: both;
+    width: 100vw;
+}
+
+.header-leading-label {
+    float: left;
+}
+
+.header-filter-tag {
+    float: right;
+}
+
+.social-platforms-links {
+    text-align: end;
+    padding: 5px 1em 0px 0px;
+    opacity: 0.8;
+    border-top: 1px solid #eee;
+    display: table;
+    content: "";
+    width: 100vw;
+    font-size: small;
+}
+
+.footer-heart-icon {
+    color: red;
+}
+
+.footer-made-name:hover {
+    border-bottom: 1px solid teal;
+    font-weight: bold;
+}
+
+.f-social-cont {
+    margin: 0 3px 0 0;
+    font-size: 18px;
+    top: 2px;
+    position: relative;
+}
+
+.f-contact-det {
+    float: left !important;
+}

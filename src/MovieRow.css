@@ -1,0 +1,57 @@
+
+.movieRows {
+    background-color: rgba(248, 199, 199, 0.418);
+    padding: 1vw 0vw;
+    border-radius: 10px;
+    width: 91vw;
+    margin:1vw auto;
+    text-align: center;
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    box-shadow: inset 0px 0px 83px 62px rgb(9, 9, 9);
+    -webkit-box-shadow: inset 0px 0px 83px 62px rgb(9, 9, 9);
+    -moz-box-shadow: inset 0px 0px 83px 62px rgb(9, 9, 9);
+
+}
+.mtitle{
+    height: 40px;
+    color: rgb(231, 216, 7);
+    text-align: center;
+    margin: auto;
+    border-left: 2px solid rgba(255, 255, 0, 0.084) ;
+}
+.movieRows::-webkit-scrollbar {
+    display: none;
+}
+.movieRow--item {
+    display: flexbox;
+    width: 150px;
+    height: inherit;
+    cursor: pointer;
+    overflow: hidden;
+    border-bottom:3px solid rgba(255, 255, 0, 0.084) ;
+    border-top:3px solid rgba(255, 255, 0, 0.084) ;
+}
+
+.movieRow--item img,
+.movieRow--item .btn {
+    width: 100%;
+    transform: scale(1);
+    transition: all ease 0.2s;
+    padding: 0%;
+    margin: 0%;
+}
+.movieRow .btn{
+    width:100%;
+    height: 100%;
+    margin-top: 0%;
+    border: 1px solid rgba(167, 149, 149, 0.19);
+
+}
+
+.movieRow--item img:hover,
+.movieRow--item .btn:hover {
+    transform: scale(1.3);
+}
